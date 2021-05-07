@@ -1,12 +1,12 @@
  Ce Projet est un exemple d'authentification JWT avec  React.js: login  et enregistrement avec:
  
-       -LocalStorage
+        -LocalStorage
  
-      -React Router
+        -React Router
  
-       -Axios 
+        -Axios 
  
-       -Bootstrap 
+        -Bootstrap 
  
  Notre application ReactJS  peut être résumée dans le diagramme ci-dessous :
  
@@ -21,6 +21,15 @@
 - Le composant  Profile affiche les informations de l'utilisateur une fois l'action de connexion réussie.
 - Les  composants BoardUser, BoardModerator, BoardAdminseront affichés par state  user.roles. Dans ces composants, nous utilisons user.service pour accéder aux ressources protégées à partir de l'API Web.
 - user.service utilise la fonction  auth-header() d'assistance pour ajouter JWT à l'en-tête HTTP. auth-header() renvoie un objet contenant le JWT de l'utilisateur actuellement connecté à partir du stockage local.
+
+
+
+
+pour plus de formations et de ressources consultez
+
+![aaa](https://user-images.githubusercontent.com/81759205/117449673-87708c80-af40-11eb-8d97-bfbc1ff20057.png)
+    
+    https://lerif.eu/
 
 
 
